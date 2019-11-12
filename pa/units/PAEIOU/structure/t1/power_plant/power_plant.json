@@ -9,6 +9,7 @@
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Line",
+    "placement_size": [15, 15],
     "production": {
         "energy": 600
     },

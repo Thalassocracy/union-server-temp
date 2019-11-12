@@ -6,7 +6,7 @@
           "layer": "WL_AnyLand"
         }
       ],
-    "rate_of_fire": 1,
+    "rate_of_fire": 4,
     "idle_aim_delay": 3,
     "max_range": 90,
     "yaw_rate": 360,
