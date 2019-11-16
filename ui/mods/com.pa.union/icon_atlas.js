@@ -1,4 +1,6 @@
-var paeiouIcons = ["can",
+var paeiouIcons = ["fab",
+"can",
+"quincy",
 "arc",
 "luddite",
 "foxhound",
@@ -6,5 +8,6 @@ var paeiouIcons = ["can",
 "ogre",
 "monitor",
 "power_plant",
+"crawler_factory",
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

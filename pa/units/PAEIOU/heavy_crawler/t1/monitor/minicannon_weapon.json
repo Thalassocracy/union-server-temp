@@ -19,7 +19,6 @@
     "arc_type": "ARC_High",
     "target_layers": [
         "WL_LandHorizontal",
-        "WL_Seafloor",
         "WL_WaterSurface"
     ],
     "target_priorities": [

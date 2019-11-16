@@ -95,7 +95,7 @@
         {
             "spec_id": "/pa/units/PAEIOU/heavy_crawler/t1/monitor/torpedo_weapon.json",
             "aim_bone": "bone_turret",
-            "record_index": 0,
+            "record_index": 2,
             "fire_event": "fired2",
             "projectiles_per_fire": 2,
             "muzzle_bone": [
@@ -130,5 +130,89 @@
     },
     "selection_response": {
         "cue": "/SE/Selection/veh/tank_inferno"
-    }
+    },
+    "headlights": [
+        {
+            "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+            "offset": [
+                0,
+                -6,
+                4
+            ],
+            "orientation": [
+                0.0,
+                45.0,
+                0.0
+            ],
+            "near_width": 5.0,
+            "near_height": 5.0,
+            "near_distance": 3.0,
+            "far_distance": 30.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 6.0,
+            "bone": "bone_root",
+            "shadow_resolution": 128
+        },
+        {
+            "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+            "offset": [
+                0,
+                -3,
+                2
+            ],
+            "orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "near_width": 5.0,
+            "near_height": 5.0,
+            "near_distance": 1.0,
+            "far_distance": 10.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 3.0,
+            "bone": "bone_turret",
+            "shadow_resolution": 128
+        }
+    ],
+    "lamps": [
+        {
+            "offset": [
+                0,
+                -6,
+                4
+            ],
+            "radius": 4.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 5.0,
+            "bone": "bone_root"
+        },
+        {
+            "offset": [
+                0,
+                -3,
+                2
+            ],
+            "radius": 4.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 4.0,
+            "bone": "bone_turret"
+        }
+    ]
 }
