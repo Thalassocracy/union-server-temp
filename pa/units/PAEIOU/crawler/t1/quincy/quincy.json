@@ -73,9 +73,16 @@
     },
     "tools": [
         {
+            "spec_id": "/pa/units/PAEIOU/crawler/t1/quincy/dummy_weapon.json",
+            "aim_bone": "bone_root",
+            "muzzle_bone": "bone_root",
+            "record_index": -1
+        },
+        {
             "spec_id": "/pa/units/PAEIOU/crawler/t1/quincy/weapon.json",
             "aim_bone": "bone_root",
-            "muzzle_bone": "bone_root"
+            "muzzle_bone": "bone_root",
+            "record_index": -1
         }
     ],
     "death_weapon": {
@@ -86,8 +93,9 @@
             "audio_cue": "/SE/Build_Complete/bot"
         },
         "fired": {
-            "audio_cue": "",
-            "effect_spec": ""
+            "effect_spec": "/pa/units/PAEIOU/crawler/t1/quincy/aoe_attack.pfx.json",
+            "audio_cue": "/SE/Weapons/bot/sniper_fire_anti_tac",
+            "effect_scale": 1
         },
         "died": {
             "audio_cue": "/SE/Death/Bot_bomb",
@@ -116,5 +124,22 @@
         5,
         6,
         4
-    ]
+    ],
+    "fx_offsets": [
+        {
+          "type": "idle",
+          "orientation": [
+            0,
+            0,
+            0
+          ],
+          "filename": "/pa/units/PAEIOU/crawler/t1/quincy/aoe_idle.pfx.json",
+          "bone": "bone_root",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
 }

@@ -9,7 +9,10 @@
     "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Line",
-    "placement_size": [15, 15],
+    "placement_size": [
+        15,
+        15
+    ],
     "production": {
         "energy": 600
     },
@@ -101,9 +104,9 @@
         "diameter": 15.0
     },
     "mesh_bounds": [
-        4,
-        4,
-        4
+        14,
+        14,
+        11.3
     ],
     "TEMP_texelinfo": 4.07719
 }

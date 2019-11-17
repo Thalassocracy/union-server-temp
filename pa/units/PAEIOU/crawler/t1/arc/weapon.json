@@ -5,7 +5,7 @@
     "max_range": 120,
     "pitch_range": 85,
     "pitch_rate": 3600,
-    "rate_of_fire": 12.0,
+    "rate_of_fire": 4.0,
     "spread_fire": true,
     "target_layers": [
       "WL_Air"
@@ -16,10 +16,8 @@
     ],
     "yaw_range": 180,
     "yaw_rate": 3600,
-    "ammo_capacity": 180,
-    "ammo_demand": 90,
-    "ammo_per_shot": 15,
-    "ammo_source": "energy",
-    "carpet_fire": true,
-    "carpet_wait_for_full_ammo": true
+    "ammo_capacity": 12,
+    "ammo_demand": 1,
+    "ammo_per_shot": 1,
+    "ammo_source": "time"
   }

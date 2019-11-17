@@ -97,7 +97,7 @@
             "aim_bone": "bone_turret",
             "record_index": 2,
             "fire_event": "fired2",
-            "projectiles_per_fire": 2,
+            "projectiles_per_fire": 1,
             "muzzle_bone": [
                 "socket_right_muzzle",
                 "socket_left_muzzle"
