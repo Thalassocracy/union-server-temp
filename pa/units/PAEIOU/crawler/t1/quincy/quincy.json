@@ -40,7 +40,7 @@
         "turn_speed": 720
     },
     "physics": {
-        "radius": 2.25,
+        "radius": 4.25,
         "allow_pushing": true
     },
     "recon": {
@@ -124,22 +124,5 @@
         5,
         6,
         4
-    ],
-    "fx_offsets": [
-        {
-          "type": "idle",
-          "orientation": [
-            0,
-            0,
-            0
-          ],
-          "filename": "/pa/units/PAEIOU/crawler/t1/quincy/aoe_idle.pfx.json",
-          "bone": "bone_root",
-          "offset": [
-            0,
-            0,
-            0
-          ]
-        }
-      ]
+    ]
 }
