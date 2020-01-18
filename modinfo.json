@@ -20,10 +20,13 @@
 		],
 		"icon_atlas": [
 			"coui://ui/mods/com.pa.union/icon_atlas.js"
+		],
+		"new_game": [
+			"coui://ui/mods/com.pa.union/new_game.js"
 		]
 	},
 	"context": "server",
-	"date": "2019-12-18",
+	"date": "2020-01-17",
 	"build": "113553",
-	"version": "0.1.219"
+	"version": "0.1.243"
 }
