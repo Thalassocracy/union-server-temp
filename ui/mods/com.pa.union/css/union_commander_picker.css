@@ -44,12 +44,12 @@
 .div-commander-picker-item.btn_std_ix.unioncommander {
     color: rgb(255, 220, 220) !important;
     border-color: rgb(255, 230, 0) !important;
-    background: rgba(70,0,0, 0.5) !important;
+    background: rgba(65,60,0, 0.5) !important;
   }
   
   .div-commander-picker-item.unioncommander.btn_std_ix:hover {
       background: rgb(255, 215, 0, 0.75) !important;
-      border: 1px solid rgba(158, 0, 0, 0.1) !important;
+      border: 1px solid rgba(255, 215, 0, 0.1) !important;
       box-shadow: 0px 0px 15px rgb(255, 215, 0, 0.8) !important;
   }
   
