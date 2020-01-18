@@ -14,5 +14,6 @@ var paeiouIcons = ["fab",
 "power_plant",
 "crawler_factory",
 "plug",
+"u_commander_a"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));
