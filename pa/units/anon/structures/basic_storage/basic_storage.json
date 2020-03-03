@@ -1,0 +1,88 @@
+{
+    "base_spec": "/pa/units/land/base_structure/base_structure.json",
+    "unit_name": "Basic Storage",
+    "si_name": "basic_storage",
+    "display_name": "!LOC:Basic Storage",
+    "description": "!LOC:Storage - Increases maximum energy and metal storage capacity.",
+    "max_health": 2500,
+    "build_metal_cost": 250,
+    "atrophy_rate": 7.5,
+    "atrophy_cool_down": 15.0,
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "area_build_type": "Line",
+    "storage": {
+        "metal": 6500,
+        "energy": 33000
+    },
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Basic",
+        "UNITTYPE_CmdBuild",
+        "UNITTYPE_FabBuild",
+        "UNITTYPE_FabAdvBuild",
+        "UNITTYPE_Economy",
+        "UNITTYPE_Custom2"
+    ],
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 100
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 100
+                }
+            ]
+        }
+    },
+    "model": [
+        {
+            "layer": "WL_LandHorizontal",
+            "filename": "/pa/units/anon/structures/basic_storage/basic_storage.papa",
+            "animations": {
+                "idle": "/pa/units/anon/structures/basic_storage/basic_storage_idle.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
+            "arrows": 10
+        },
+        {
+            "layer": "WL_WaterSurface",
+            "filename": "/pa/units/sea/sea_metal_storage/sea_metal_storage.papa"
+        }
+    ],
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/metal"
+        },
+        "died": {
+            "audio_cue": "/SE/Death/Factory",
+            "effect_scale": 0.8
+        }
+    },
+    "audio": {
+        "selection_response": {
+            "cue": "/SE/Selection/structure/metal"
+        }
+    },
+    "headlights": [],
+    "lamps": [],
+    "selection_icon": {
+        "diameter": 20
+    },
+    "mesh_bounds": [
+        10,
+        10,
+        15
+    ],
+    "placement_size": [
+        15,
+        15
+    ],
+    "TEMP_texelinfo": 21.4256
+}

@@ -25,7 +25,8 @@
         "UNITTYPE_Offense",
         "UNITTYPE_Land",
         "UNITTYPE_Basic",
-        "UNITTYPE_FabBuild"
+        "UNITTYPE_FabBuild",
+        "UNITTYPE_Custom2"
     ],
     "transportable": {
         "size": 1

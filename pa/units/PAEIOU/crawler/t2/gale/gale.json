@@ -25,7 +25,8 @@
         "UNITTYPE_Land",
         "UNITTYPE_Advanced",
         "UNITTYPE_FactoryBuild",
-        "UNITTYPE_AirDefense"
+        "UNITTYPE_AirDefense",
+        "UNITTYPE_Custom2"
     ],
     "guard_layer": "WL_AnySurface",
     "navigation": {
@@ -76,6 +77,13 @@
             "record_index": 0,
             "fire_event": "fired0",
             "muzzle_bone": "socket_muzzle"
+        },
+        {
+            "spec_id": "/pa/units/land/bot_sniper/bot_sniper_beam_tool_weapon.json",
+            "aim_bone": "bone_turret",
+            "record_index": 1,
+            "fire_event": "fired1",
+            "muzzle_bone": "socket_muzzle02"
         }
     ],
     "events": {

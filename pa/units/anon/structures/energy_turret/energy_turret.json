@@ -1,0 +1,82 @@
+{
+    "base_spec": "/pa/units/land/base_structure/base_structure.json",
+    "unit_name": "Energy Turret",
+    "si_name": "u_energy_defense",
+    "display_name": "!LOC:Energy Turret",
+    "description": "!LOC:Advanced Turret - Equipped with a direct beam lighting attack. Does alot of splash damage.",
+    "max_health": 4000,
+    "build_metal_cost": 900,
+    "atrophy_rate": 15.0,
+    "atrophy_cool_down": 15.0,
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Advanced",
+        "UNITTYPE_Land",
+        "UNITTYPE_SurfaceDefense",
+        "UNITTYPE_Defense",
+        "UNITTYPE_FabAdvBuild",
+        "UNITTYPE_Custom2"
+    ],
+    "command_caps": [
+        "ORDER_Attack"
+    ],
+    "guard_layer": "WL_AnySurface",
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 130
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 130
+                }
+            ]
+        }
+    },
+    "model": [
+        {
+            "filename": "/pa/units/anon/structures/energy_turret/energy_turret.papa",
+            "animtree": "/pa/anim/anim_trees/defense_turret_adv_anim_tree.json",
+            "skirt_decal": "/pa/effects/specs/skirt_defense_adv.json"
+        }
+    ],
+    "tools": [
+        {
+            "spec_id": "/pa/units/anon/structures/energy_turret/weapon.json",
+            "aim_bone": "bone_pitch",
+            "muzzle_bone": [
+                "socket_muzzle"
+            ]
+        }
+    ],
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/structure_small"
+        },
+        "fired": {
+            "audio_cue": "/SE/Weapons/structure/laser_defense_ADV_fire",
+            "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_centerMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle"
+        },
+        "died": {
+            "audio_cue": "/SE/Death/structure_small",
+            "effect_scale": 0.75
+        }
+    },
+    "selection_icon": {
+        "diameter": 15.0
+    },
+    "mesh_bounds": [
+        8,
+        8,
+        23
+    ],
+    "area_build_separation": 18,
+    "TEMP_texelinfo": 15.3609
+}
