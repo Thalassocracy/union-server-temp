@@ -2,9 +2,9 @@
     "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
     "display_name": "Horseshoe",
     "si_name": "u_transport",
-    "description": "!LOC:Air Transport - Load a land unit to transport for snipes or expansions.",
-    "max_health": 100,
-    "build_metal_cost": 60,
+    "description": "!LOC:Sturdy Air Transport - Load a land unit to transport for snipes or expansions. Moves slower than most air, but can brake quickly and has more health.",
+    "max_health": 120,
+    "build_metal_cost": 100,
     "usable": true,
     "attachable": {
         "offsets": {
@@ -68,8 +68,8 @@
     "navigation": {
         "type": "air",
         "acceleration": 15,
-        "brake": 50,
-        "move_speed": 70,
+        "brake": 100,
+        "move_speed": 60,
         "turn_speed": 120,
         "vertical_speed": 100,
         "hover_time": -1.0

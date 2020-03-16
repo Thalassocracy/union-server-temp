@@ -202,8 +202,10 @@
         "/pa/units/sea/hover_ship/hover_ship.json",
         "/pa/units/union/base_union_comm.json",
         "/pa/units/union/mobile_structure_base.json",
+
         "/pa/units/commanders/union_valiant/union_valiant.json",
         "/pa/units/commanders/union_formidable/union_formidable.json",
+
         "/pa/units/PAEIOU/crawler/t1/fab/fab.json",
         "/pa/units/PAEIOU/crawler/t2/fab/fab.json",
         "/pa/units/PAEIOU/crawler/t1/can/can.json",
@@ -215,10 +217,13 @@
         "/pa/units/PAEIOU/crawler/t2/gale/gale.json",
         "/pa/units/PAEIOU/crawler/t2/redeemer/redeemer.json",
         "/pa/units/PAEIOU/crawler/t2/tank_laser_adv/tank_laser_adv.json",
+
         "/pa/units/PAEIOU/heavy_crawler/t1/ogre/ogre.json",
         "/pa/units/PAEIOU/heavy_crawler/t1/monitor/monitor.json",
+
         "/pa/units/PAEIOU/mobile_defense/t1/hermit/hermit.json",
         "/pa/units/PAEIOU/mobile_defense/t2/monarch/monarch.json",
+
         "/pa/units/PAEIOU/structure/t1/power_plant/power_plant.json",
         "/pa/units/PAEIOU/structure/t1/crawler_factory/crawler_factory.json",
         "/pa/units/PAEIOU/structure/t2/adv_crawler_factory/adv_crawler_factory.json",
@@ -242,6 +247,13 @@
         "/pa/units/anon/structures/energy_turret/energy_turret.json",
         "/pa/units/anon/crawlers/torch/torch.json",
         "/pa/units/anon/air/transport/horseshoe.json",
-        "/pa/units/PAEIOU/crawler/t1/fab/land_mine/land_mine.json"
+        "/pa/units/anon/air/scout/dragonfly.json",
+        "/pa/units/PAEIOU/crawler/t1/fab/land_mine/land_mine.json",
+        "/pa/units/anon/crawlers/champion/champion.json",
+        "/pa/units/union/land/nuke_launcher/nuke_launcher.json",
+        "/pa/units/union/land/teleporter/teleporter.json",
+        "/pa/units/union/land/titan_vehicle/titan_vehicle.json",
+        "/pa/units/anon/structures/orbital_launcher/orbital_launcher.json"
+
     ]
 }

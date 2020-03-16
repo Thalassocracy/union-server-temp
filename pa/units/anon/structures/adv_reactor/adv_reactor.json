@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "si_name": "adv_power_plant",
     "unit_name": "Advanced Reactor",
-    "display_name": "!LOC:Advanced Flux Device",
+    "display_name": "!LOC:Advanced Reactor",
     "description": "!LOC:Advanced Economy - Produces energy.",
     "max_health": 6600,
     "build_metal_cost": 3000,
