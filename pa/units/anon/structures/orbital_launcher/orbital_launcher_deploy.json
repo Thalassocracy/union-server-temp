@@ -24,7 +24,7 @@
         }
     },
     "model": {
-        "filename": "/pa/units/air/missile_orbital/missile_orbital.papa"
+        "filename": "/pa/units/anon/structures/orbital_launcher/orbital_rocket/orbital_rocket.papa"
     },
     "physics": {
         "layer": "air",

@@ -217,12 +217,15 @@
         "/pa/units/PAEIOU/crawler/t2/gale/gale.json",
         "/pa/units/PAEIOU/crawler/t2/redeemer/redeemer.json",
         "/pa/units/PAEIOU/crawler/t2/tank_laser_adv/tank_laser_adv.json",
+        "/pa/units/anon/crawlers/sliverback/silverback.json",
 
         "/pa/units/PAEIOU/heavy_crawler/t1/ogre/ogre.json",
         "/pa/units/PAEIOU/heavy_crawler/t1/monitor/monitor.json",
 
         "/pa/units/PAEIOU/mobile_defense/t1/hermit/hermit.json",
         "/pa/units/PAEIOU/mobile_defense/t2/monarch/monarch.json",
+
+        "/pa/units/anon/orbital/orbital_pp/orbital_pp.json",
 
         "/pa/units/PAEIOU/structure/t1/power_plant/power_plant.json",
         "/pa/units/PAEIOU/structure/t1/crawler_factory/crawler_factory.json",
@@ -253,7 +256,8 @@
         "/pa/units/union/land/nuke_launcher/nuke_launcher.json",
         "/pa/units/union/land/teleporter/teleporter.json",
         "/pa/units/union/land/titan_vehicle/titan_vehicle.json",
-        "/pa/units/anon/structures/orbital_launcher/orbital_launcher.json"
+        "/pa/units/anon/structures/orbital_launcher/orbital_launcher.json",
+        "/pa/units/union/orbital_fighter/orbital_fighter.json"
 
     ]
 }

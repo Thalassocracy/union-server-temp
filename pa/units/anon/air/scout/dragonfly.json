@@ -53,14 +53,14 @@
                     "channel": "radar",
                     "uses_energy": false,
                     "layer": "surface_and_air",
-                    "radius": 280,
+                    "radius": 300,
                     "shape": "capsule"
                 },
                 {
                     "channel": "radar",
                     "uses_energy": false,
                     "layer": "underwater",
-                    "radius": 280,
+                    "radius": 300,
                     "shape": "capsule"
                 }
             ]

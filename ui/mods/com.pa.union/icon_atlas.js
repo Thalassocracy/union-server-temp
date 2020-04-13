@@ -29,6 +29,7 @@ var paeiouIcons = [
     "u_energy_defense",
     "torch",
     "u_transport",
-    "u_air_scout"
+    "u_air_scout",
+    "orbital_pp"
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

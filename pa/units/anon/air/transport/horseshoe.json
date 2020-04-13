@@ -53,7 +53,8 @@
         "ORDER_Patrol",
         "ORDER_Assist",
         "ORDER_Load",
-        "ORDER_Unload"
+        "ORDER_Unload",
+        "ORDER_SpecialMove"
     ],
     "useable": {
         "type": "transport",
@@ -61,7 +62,7 @@
     },
     "transporter": {
         "capacity": 1,
-        "transportable_unit_types": "Mobile & Land - Commander",
+        "transportable_unit_types": "Mobile & Land",
         "transporter_attach_bone": "bone_payload",
         "transportable_attach_offset": "head"
     },

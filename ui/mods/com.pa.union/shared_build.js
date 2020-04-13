@@ -12,6 +12,7 @@ var newBuild = {
     "/pa/units/PAEIOU/crawler/t2/foxhound/foxhound.json": ["crawler", 0, { row: 1, column: 3, titans: true }],
     "/pa/units/PAEIOU/crawler/t2/gale/gale.json": ["crawler", 0, { row: 1, column: 4, titans: true }],
     "/pa/units/PAEIOU/crawler/t2/redeemer/redeemer.json": ["crawler", 0, { row: 1, column: 5, titans: true }],
+    "/pa/units/anon/crawlers/sliverback/silverback.json": ["crawler", 0, { row: 1, column: 6, titans: true }],
 
     "/pa/units/PAEIOU/heavy_crawler/t1/ogre/ogre.json": ["heavy_crawler", 0, { row: 2, column: 1, titans: true }],
     "/pa/units/PAEIOU/heavy_crawler/t1/monitor/monitor.json": ["heavy_crawler", 0, { row: 2, column: 2, titans: true }],
@@ -49,7 +50,10 @@ var newBuild = {
     "/pa/units/PAEIOU/structure/t2/anti_nuke/anti_nuke_launcher_ammo.json": ["unionnuke", 2, { row: 2, column: 0, titans: true }],
 
     "/pa/units/anon/air/transport/horseshoe.json": ["flyer", 0, { row: 2, column: 6, titans: true }],
-    "/pa/units/anon/air/scout/dragonfly.json": ["flyer", 0, { row: 2, column: 5, titans: true }]
+    "/pa/units/anon/air/scout/dragonfly.json": ["flyer", 0, { row: 2, column: 5, titans: true }],
+
+    "/pa/units/union/orbital_fighter/orbital_fighter.json": ["spacer", 0, { row: 2, column: 0, titans: true }],
+    "/pa/units/anon/orbital/orbital_pp/orbital_pp.json": ["spacer", 0, { row: 2, column: 3, titans: true }]
 
 }
 if (Build && Build.HotkeyModel && Build.HotkeyModel.SpecIdToGridMap) {

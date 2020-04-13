@@ -98,7 +98,7 @@
     "tools": [
         {
             "aim_bone": "bone_root",
-            "spec_id": "/pa/units/land/tank_light_laser/spawn_weapon.json",
+            "spec_id": "/pa/units/anon/crawlers/champion/spawn_weapon.json",
             "muzzle_bone": "bone_root"
         }
     ],
