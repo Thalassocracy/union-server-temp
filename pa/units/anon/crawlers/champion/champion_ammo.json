@@ -22,8 +22,8 @@
         "add_to_spatial_db": false,
         "radius": 1
     },
-    "splash_damage": 300,
-    "splash_radius": 3,
+    "splash_damage": 100,
+    "splash_radius": 1,
     "stages": [
         {
             "rotates_to_velocity": true,

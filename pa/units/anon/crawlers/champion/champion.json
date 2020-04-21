@@ -1,6 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Champion",
+    "si_name": "goliath",
     "description": "!LOC:Leveler Killer - shoots booms that screw levelrs.",
     "max_health": 2450,
     "build_metal_cost": 1600,
@@ -36,7 +37,7 @@
         "type": "land-small",
         "acceleration": 200,
         "brake": 200,
-        "move_speed": 12,
+        "move_speed": 10,
         "turn_speed": 200
     },
     "physics": {

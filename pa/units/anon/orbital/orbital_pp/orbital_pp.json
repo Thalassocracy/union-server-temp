@@ -3,7 +3,7 @@
     "si_name": "orbital_pp",
     "display_name": "!LOC:Orbital Reactor",
     "description": "!LOC:Economy - Orbital energy generation.",
-    "max_health": 250,
+    "max_health": 50,
     "build_metal_cost": 800,
     "spawn_layers": "WL_Orbital",
     "attachable": {
@@ -36,8 +36,8 @@
         "type": "orbital",
         "acceleration": 15,
         "brake": 10,
-        "move_speed": 50,
-        "turn_speed": 50,
+        "move_speed": 35,
+        "turn_speed": 100,
         "hover_time": -1.0
     },
     "physics": {

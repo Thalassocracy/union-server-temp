@@ -217,7 +217,7 @@
         "/pa/units/PAEIOU/crawler/t2/gale/gale.json",
         "/pa/units/PAEIOU/crawler/t2/redeemer/redeemer.json",
         "/pa/units/PAEIOU/crawler/t2/tank_laser_adv/tank_laser_adv.json",
-        "/pa/units/anon/crawlers/sliverback/silverback.json",
+        "/pa/units/anon/crawlers/silverback/silverback.json",
 
         "/pa/units/PAEIOU/heavy_crawler/t1/ogre/ogre.json",
         "/pa/units/PAEIOU/heavy_crawler/t1/monitor/monitor.json",
@@ -236,7 +236,7 @@
         "/pa/units/PAEIOU/structure/t1/metal_extractor/metal_extractor.json",
         "/pa/units/PAEIOU/structure/t2/adv_metal_extractor/adv_metal_extractor.json",
         "/pa/units/PAEIOU/structure/t1/radar/radar.json",
-        "/pa/units/PAEIOU/structure/t1/ion_defense/ion_defense.json",
+        "/pa/units/anon/structures/orbital_defense/orbital_defense.json",
         "/pa/units/PAEIOU/structure/t1/autocannon_turret/autocannon_turret.json",
         "/pa/units/PAEIOU/structure/t2/radar_adv/radar_adv.json",
         "/pa/units/PAEIOU/structure/t2/tactical_missile_launcher/tactical_missile_launcher.json",
@@ -257,7 +257,8 @@
         "/pa/units/union/land/teleporter/teleporter.json",
         "/pa/units/union/land/titan_vehicle/titan_vehicle.json",
         "/pa/units/anon/structures/orbital_launcher/orbital_launcher.json",
-        "/pa/units/union/orbital_fighter/orbital_fighter.json"
+        "/pa/units/union/orbital_fighter/orbital_fighter.json",
+        "/pa/units/anon/heavy_crawlers/chimera/chimera.json"
 
     ]
 }
