@@ -42,22 +42,14 @@
     "lod_hide_pixelsize": 32.0,
     "max_health": 1,
     "navigation": {
-        "type": "air",
-        "acceleration": 10000,
-        "brake": 0,
-        "move_speed": 1000,
-        "turn_speed": 1000,
-        "dodge_radius": 1,
-        "dodge_multiplier": 0.0,
-        "aggressive_distance": 50.0,
-        "aggressive_Height": 1.0,
-        "aggressive_behavior": "line",
-        "wobble_factor": 0.0,
-        "wobble_speed": 1.0,
-        "hover_time": 5.0,
+        "wobble_factor": 0.1,
+        "brake": -1,
+        "acceleration": 1,
+        "turn_speed": 1,
+        "move_speed": 1,
+        "wobble_speed": 0.2,
+        "dodge_multiplier": 1.0,
         "park_stamp": {
-            "shape": "sphere",
-            "cost": 10,
             "type_data": [
                 {
                     "move_type": "land-small",
@@ -66,9 +58,17 @@
                 {
                     "move_type": "amphibious",
                     "stamp_type": "simple"
+                },
+                {
+                    "move_type": "hover",
+                    "stamp_type": "simple"
                 }
-            ]
-        }
+            ],
+            "shape": "sphere",
+            "cost": 10
+        },
+        "type": "land-small",
+        "dodge_radius": 15
     },
     "physics": {
         "add_to_spatial_db": false,

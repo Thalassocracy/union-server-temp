@@ -74,11 +74,11 @@
         }
     },
     "model": {
-        "filename": "/pa/units/PAEIOU/crawler/t1/fab/model.papa",
+        "filename": "/pa/units/PAEIOU/crawler/t2/fab/model.papa",
         "animations": {
-            "death01": "/pa/units/PAEIOU/crawler/t1/fab/model.papa",
-            "idle": "/pa/units/PAEIOU/crawler/t1/fab/anim_idle.papa",
-            "walk": "/pa/units/PAEIOU/crawler/t1/fab/anim_run.papa"
+            "death01": "/pa/units/PAEIOU/crawler/t2/fab/model.papa",
+            "idle": "/pa/units/PAEIOU/crawler/t2/fab/anim_idle.papa",
+            "walk": "/pa/units/PAEIOU/crawler/t2/fab/anim_run.papa"
         },
         "animtree": "/pa/units/PAEIOU/crawler/t1/fab/anim_tree.json",
         "walk_speed": 4
