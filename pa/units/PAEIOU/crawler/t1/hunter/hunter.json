@@ -3,9 +3,9 @@
     "unit_name": "Hunter",
     "si_name": "hunter",
     "display_name": "!LOC:Hunter",
-    "description": "!LOC:Larger ranged crawler - Has a damage fall-off weapon, which makes it more effective at closer range.",
-    "max_health": 100,
-    "build_metal_cost": 150,
+    "description": "!LOC:Ranged crawler - Has a penetration shot weapon",
+    "max_health": 80,
+    "build_metal_cost": 100,
     "attachable": {
         "offsets": {
             "root": [
@@ -39,7 +39,7 @@
         "acceleration": 100,
         "brake": 100,
         "move_speed": 11,
-        "turn_speed": 150
+        "turn_speed": 120
     },
     "physics": {
         "radius": 4
@@ -68,16 +68,7 @@
     },
     "tools": [
         {
-            "spec_id": "/pa/units/PAEIOU/crawler/t1/hunter/hunter_weapon_1.json",
-            "aim_bone": "bone_pitch",
-            "muzzle_bone": "socket_muzzle"
-        },
-        {
-            "spec_id": "/pa/units/PAEIOU/crawler/t1/hunter/hunter_weapon_2.json",
-            "aim_bone": "bone_pitch",
-            "muzzle_bone": "socket_muzzle"
-        },{
-            "spec_id": "/pa/units/PAEIOU/crawler/t1/hunter/hunter_weapon_3.json",
+            "spec_id": "/pa/units/PAEIOU/crawler/t1/hunter/hunter_weapon.json",
             "aim_bone": "bone_pitch",
             "muzzle_bone": "socket_muzzle"
         }

@@ -13,7 +13,7 @@
     "flight_type": "Staged",
     "influence_radius": 400,
     "initial_velocity": 100.0,
-    "lifetime": 1.5,
+    "lifetime": 0.2,
     "max_health": 1,
     "max_velocity": 100.0,
     "physics": {
@@ -27,7 +27,7 @@
     "stages": [
         {
             "rotates_to_velocity": true,
-            "stage_duration": 1000,
+            "stage_duration": 0.2,
             "ignores_gravity": true,
             "ignores_LOS": false,
             "stage_turn_rate": 75
@@ -35,8 +35,8 @@
         {
             "apply_thrust": false,
             "rotates_to_velocity": true,
-            "stage_duration": 50000,
-            "ignores_gravity": false,
+            "stage_duration": 0.3,
+            "ignores_gravity": true,
             "ignores_LOS": false,
             "stage_turn_rate": 0
         }

@@ -207,7 +207,7 @@
         "/pa/units/commanders/union_formidable/union_formidable.json",
 
         "/pa/units/PAEIOU/crawler/t1/fab/fab.json",
-        "/pa/units/PAEIOU/crawler/t2/fab/fab.json",
+        "/pa/units/anon/crawlers/adv_fab/adv_fab.json",
         "/pa/units/PAEIOU/crawler/t1/can/can.json",
         "/pa/units/PAEIOU/crawler/t1/quincy/quincy.json",
         "/pa/units/PAEIOU/crawler/t1/saboteur/saboteur.json",
@@ -219,7 +219,7 @@
         "/pa/units/PAEIOU/crawler/t2/tank_laser_adv/tank_laser_adv.json",
         "/pa/units/anon/crawlers/silverback/silverback.json",
 
-        "/pa/units/PAEIOU/heavy_crawler/t1/ogre/ogre.json",
+        "/pa/units/anon/heavy_crawlers/ogre/ogre.json",
         "/pa/units/PAEIOU/heavy_crawler/t1/monitor/monitor.json",
 
         "/pa/units/PAEIOU/mobile_defense/t1/hermit/hermit.json",
@@ -229,13 +229,14 @@
 
         "/pa/units/PAEIOU/structure/t1/power_plant/power_plant.json",
         "/pa/units/PAEIOU/structure/t1/crawler_factory/crawler_factory.json",
+        "/pa/units/anon/structures/heavy_crawler_factory/heavy_crawler_factory.json",
         "/pa/units/PAEIOU/structure/t2/adv_crawler_factory/adv_crawler_factory.json",
         "/pa/units/PAEIOU/structure/t1/plug/plug.json",
         "/pa/units/PAEIOU/structure/t1/structure_aa/structure_aa.json",
         "/pa/units/PAEIOU/structure/t2/adv_structure_aa/adv_structure_aa.json",
         "/pa/units/PAEIOU/structure/t1/metal_extractor/metal_extractor.json",
         "/pa/units/PAEIOU/structure/t2/adv_metal_extractor/adv_metal_extractor.json",
-        "/pa/units/PAEIOU/structure/t1/radar/radar.json",
+        "/pa/units/anon/structures/basic_radar/basic_radar.json",
         "/pa/units/anon/structures/orbital_defense/orbital_defense.json",
         "/pa/units/PAEIOU/structure/t1/autocannon_turret/autocannon_turret.json",
         "/pa/units/PAEIOU/structure/t2/radar_adv/radar_adv.json",
@@ -258,7 +259,9 @@
         "/pa/units/union/land/titan_vehicle/titan_vehicle.json",
         "/pa/units/anon/structures/orbital_launcher/orbital_launcher.json",
         "/pa/units/union/orbital_fighter/orbital_fighter.json",
-        "/pa/units/anon/heavy_crawlers/chimera/chimera.json"
+        "/pa/units/anon/heavy_crawlers/chimera/chimera.json",
+
+        "/pa/units/anon/structures/pylon/pylon.json"
 
     ]
 }

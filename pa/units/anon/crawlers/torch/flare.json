@@ -43,10 +43,10 @@
     "max_health": 1,
     "navigation": {
         "type": "air",
-        "acceleration": 10000,
+        "acceleration": 0,
         "brake": 0,
-        "move_speed": 1000,
-        "turn_speed": 1000,
+        "move_speed": 0,
+        "turn_speed": 0,
         "dodge_radius": 1,
         "dodge_multiplier": 0.0,
         "aggressive_distance": 50.0,
@@ -84,32 +84,32 @@
                 {
                     "channel": "sight",
                     "layer": "surface_and_air",
-                    "radius": 50,
+                    "radius": 100,
                     "shape": "capsule"
                 },
                 {
                     "channel": "radar",
                     "uses_energy": false,
                     "layer": "surface_and_air",
-                    "radius": 50,
+                    "radius": 100,
                     "shape": "capsule"
                 },
                 {
                     "channel": "radar",
                     "layer": "underwater",
-                    "radius": 50,
+                    "radius": 100,
                     "shape": "capsule"
                 },
                 {
                     "channel": "sight",
                     "layer": "underwater",
-                    "radius": 50,
+                    "radius": 100,
                     "shape": "capsule"
                 },
                 {
                     "channel": "sight",
                     "layer": "mine",
-                    "radius": 50,
+                    "radius": 100,
                     "shape": "capsule"
                 }
             ]

@@ -1,0 +1,209 @@
+{
+    "base_spec": "/pa/units/land/base_structure/base_structure.json",
+    "unit_name": "Pylon",
+    "si_name": "pylon_storage",
+    "display_name": "!LOC:Energy Pylon",
+    "description": "!LOC:Storage - Increases maximum energy storage capacity.",
+    "max_health": 24000,
+    "build_metal_cost": 2400,
+    "atrophy_rate": 7.5,
+    "atrophy_cool_down": 15.0,
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "area_build_type": "Line",
+    "storage": {
+        "energy": 1000000
+    },
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Advanced",
+        "UNITTYPE_FabAdvBuild",
+        "UNITTYPE_Economy",
+        "UNITTYPE_Custom2"
+    ],
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 100
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 100
+                }
+            ]
+        }
+    },
+    "model": {
+        "filename": "/pa/units/anon/structures/pylon/pylon.papa",
+        "animations": {
+            "deploy": "/pa/units/anon/structures/pylon/pylon_deploy.papa",
+            "closed": "/pa/units/anon/structures/pylon/pylon_closed.papa"
+        },
+        "animtree": "/pa/units/anon/orbital/orbital_pp/orbital_pp_anim_tree.json",
+        "skirt_decal": "/pa/units/anon/structures/pylon/skirt/skirt_union_pylon.json"
+    },
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/energy"
+        },
+        "died": {
+            "audio_cue": "/SE/Death/Factory",
+            "effect_scale": 0.8
+        }
+    },
+    "audio": {
+        "selection_response": {
+            "cue": "/SE/Selection/structure/energy"
+        }
+    },
+    "headlights": [],
+    "lamps": [
+        {
+            "offset": [
+                0,
+                10.02,
+                16.06
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 2.0
+        },
+        {
+            "offset": [
+                0,
+                9.49,
+                22.16
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 2.0
+        },
+        {
+            "offset": [
+                0,
+                -5.14,
+                12.49
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 2.0,
+            "bone": "bone_mid_section"
+        },
+        {
+            "offset": [
+                -8.68,
+                -5.01,
+                16.06
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 2.0
+        },
+        {
+            "offset": [
+                -8.22,
+                -4.744,
+                22.16
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 2.0
+        },
+        {
+            "offset": [
+                4.45,
+                2.57,
+                12.49
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 2.0,
+            "bone": "bone_mid_section"
+        },
+        {
+            "offset": [
+                8.68,
+                -5.01,
+                16.06
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 2.0
+        },
+        {
+            "offset": [
+                8.22,
+                -4.744,
+                22.16
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 2.0
+        },
+        {
+            "offset": [
+                -4.45,
+                2.57,
+                12.49
+            ],
+            "radius": 5.0,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 2.0,
+            "bone": "bone_mid_section"
+        }
+    ],
+    "selection_icon": {
+        "diameter": 35
+    },
+    "mesh_bounds": [
+        30,
+        30,
+        40
+    ],
+    "placement_size": [
+        35,
+        35
+    ],
+    "TEMP_texelinfo": 26.4567
+}

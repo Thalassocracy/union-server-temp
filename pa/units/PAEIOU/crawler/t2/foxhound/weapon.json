@@ -1,9 +1,9 @@
 {
     "base_spec": "/pa/tools/base_shell_turret/base_shell_turret.json",
     "ammo_id": "/pa/units/PAEIOU/crawler/t2/foxhound/ammo.json",
-    "rate_of_fire": 0.3,
+    "rate_of_fire": 0.5,
     "idle_aim_delay": 3.0,
-    "max_range": 165,
+    "max_range": 200,
     "yaw_rate": 150,
     "pitch_rate": 150,
     "yaw_range": 360,
@@ -14,6 +14,11 @@
         "WL_LandHorizontal",
         "WL_WaterSurface"
     ],
+    "physics": {
+        "radius": 1,
+        "gravity_scalar": 5,
+        "add_to_spatial_db": false
+    },
     "target_priorities": [
         "Commander",
         "Titan",

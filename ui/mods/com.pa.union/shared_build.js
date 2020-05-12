@@ -1,6 +1,6 @@
 var newBuild = {
     "/pa/units/PAEIOU/crawler/t1/fab/fab.json": ["crawler", 0, { row: 2, column: 0, titans: true }],
-    "/pa/units/PAEIOU/crawler/t2/fab/fab.json": ["crawler", 0, { row: 1, column: 0, titans: true }],
+    "/pa/units/anon/crawlers/adv_fab/adv_fab.json": ["crawler", 0, { row: 1, column: 0, titans: true }],
     "/pa/units/PAEIOU/crawler/t1/can/can.json": ["crawler", 0, { row: 2, column: 1, titans: true }],
     "/pa/units/PAEIOU/crawler/t1/hunter/hunter.json": ["crawler", 0, { row: 2, column: 3, titans: true }],
     "/pa/units/PAEIOU/crawler/t1/quincy/quincy.json": ["crawler", 0, { row: 2, column: 2, titans: true }],
@@ -14,7 +14,7 @@ var newBuild = {
     "/pa/units/PAEIOU/crawler/t2/redeemer/redeemer.json": ["crawler", 0, { row: 1, column: 5, titans: true }],
     "/pa/units/anon/crawlers/silverback/silverback.json": ["crawler", 0, { row: 1, column: 6, titans: true }],
 
-    "/pa/units/PAEIOU/heavy_crawler/t1/ogre/ogre.json": ["heavy_crawler", 0, { row: 2, column: 1, titans: true }],
+    "/pa/units/anon/heavy_crawlers/ogre/ogre.json": ["heavy_crawler", 0, { row: 2, column: 1, titans: true }],
     "/pa/units/PAEIOU/heavy_crawler/t1/monitor/monitor.json": ["heavy_crawler", 0, { row: 2, column: 2, titans: true }],
     "/pa/units/PAEIOU/mobile_defense/t1/hermit/hermit.json": ["heavy_crawler", 0, { row: 2, column: 3, titans: true }],
     "/pa/units/PAEIOU/mobile_defense/t2/monarch/monarch.json": ["heavy_crawler", 0, { row: 1, column: 3, titans: true }],
@@ -26,12 +26,14 @@ var newBuild = {
     "/pa/units/PAEIOU/structure/t1/barricade/barricade.json": ["unionutil", 0, { row: 2, column: 1, titans: true }],
     "/pa/units/PAEIOU/structure/t1/metal_extractor/metal_extractor.json": ["unionutil", 0, { row: 2, column: 4, titans: true }],
     "/pa/units/PAEIOU/structure/t2/adv_metal_extractor/adv_metal_extractor.json": ["unionutil", 0, { row: 1, column: 4, titans: true }],
-    "/pa/units/PAEIOU/structure/t1/radar/radar.json": ["unionutil", 0, { row: 2, column: 0, titans: true }],
+    "/pa/units/anon/structures/basic_radar/basic_radar.json": ["unionutil", 0, { row: 2, column: 0, titans: true }],
     "/pa/units/PAEIOU/structure/t2/radar_adv/radar_adv.json": ["unionutil", 0, { row: 1, column: 0, titans: true }],
     "/pa/units/anon/structures/basic_storage/basic_storage.json": ["unionutil", 0, { row: 2, column: 2, titans: true }],
+    "/pa/units/anon/structures/pylon/pylon.json": ["unionutil", 0, { row: 1, column: 2, titans: true }],
     "/pa/units/union/land/teleporter/teleporter.json": ["unionutil", 0, { row: 1, column: 5, titans: true }],
 
     "/pa/units/PAEIOU/structure/t1/crawler_factory/crawler_factory.json": ["unionfactory", 0, { row: 2, column: 1, titans: true }],
+    "/pa/units/anon/structures/heavy_crawler_factory/heavy_crawler_factory.json": ["unionfactory", 0, { row: 2, column: 2, titans: true }],
     "/pa/units/anon/structures/orbital_launcher/orbital_launcher.json": ["unionfactory", 0, { row: 2, column: 0, titans: true }],
     "/pa/units/PAEIOU/structure/t2/adv_crawler_factory/adv_crawler_factory.json": ["unionfactory", 0, { row: 1, column: 1, titans: true }],
 
