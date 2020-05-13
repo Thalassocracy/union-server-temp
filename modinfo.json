@@ -1,12 +1,12 @@
 {
 	"identifier": "com.pa.union.union_server_test",
 	"display_name": "Union Expansion",
-	"description": "How do you tell the difference between a teacher and a chemist?",
+	"description": "Union dev build, adds 3rd faction. WIP; unstable, and ever-changing unit balance!",
 	"author": "The Union Team",
 	"signature": "not yet implemented",
-	"forum": "lul not yet",
-	"priority": 100,
-	"icon": "https://i.imgur.com/1xzmdEm.png",
+	"forum": "https://forums.planetaryannihilation.com/threads/wip-union-expansion.73447/",
+	"priority": 105,
+	"icon": "https://cdn.discordapp.com/attachments/422532989658988545/677307398402342912/icon_sdl.png",
 	"titansOnly": true,
 	"category": [
 		"balance"
@@ -27,7 +27,7 @@
 		]
 	},
 	"context": "server",
-	"date": "2020-01-18",
+	"date": "2020-5-11",
 	"build": "113553",
-	"version": "0.1.253"
+	"version": "0.3.0"
 }

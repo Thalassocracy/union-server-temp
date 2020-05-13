@@ -10,8 +10,8 @@
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Line",
     "placement_size": [
-        15,
-        15
+        12,
+        12
     ],
     "production": {
         "energy": 600
@@ -21,7 +21,8 @@
         "UNITTYPE_Basic",
         "UNITTYPE_CmdBuild",
         "UNITTYPE_FabBuild",
-        "UNITTYPE_Economy"
+        "UNITTYPE_Economy",
+        "UNITTYPE_Custom2"
     ],
     "navigation": {
         "type": "amphibious",
@@ -103,13 +104,13 @@
         "diameter": 15.0
     },
     "mesh_bounds": [
-        14,
-        14,
-        11.3
+        12,
+        12,
+        12
     ],
     "TEMP_texelinfo": 4.07719,
     "physics": {
-        "radius": 12,
+        "radius": 8,
         "air_friction": 1.0
     }
 }

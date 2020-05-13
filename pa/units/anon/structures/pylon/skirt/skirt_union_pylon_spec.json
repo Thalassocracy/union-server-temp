@@ -1,0 +1,5 @@
+{
+    "diffuse": "/pa/units/anon/structures/pylon/skirt/skirt_union_pylon_diffuse.papa",
+    "normal": "/pa/units/anon/structures/pylon/skirt/skirt_union_pylon_normal.papa",
+    "material": "/pa/effects/textures/skirts/skirt_01_material.papa"
+}

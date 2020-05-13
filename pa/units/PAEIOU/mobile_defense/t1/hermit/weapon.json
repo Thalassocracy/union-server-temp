@@ -1,25 +1,25 @@
 {
     "base_spec": "/pa/tools/base_artillery_turret/base_artillery_turret.json",
-    "ammo_id": "/pa/units/PAEIOU/mobile_defense/t1/hermit/ammo.json",
-    "rate_of_fire": 8,
-    "max_firing_velocity": 300,
-    "min_firing_velocity": 50,
+    "ammo_id": "/pa/units/land/artillery_short/artillery_short_ammo.json",
+    "rate_of_fire": 0.3,
+    "max_firing_velocity": 150,
+    "min_firing_velocity": 100,
     "ammo_source": "energy",
-    "ammo_capacity": 1000,
-    "ammo_demand": 250,
-    "ammo_per_shot": 250,
-    "max_range": 230,
-    "yaw_rate": 50,
-    "pitch_rate": 100,
+    "ammo_capacity": 750,
+    "ammo_demand": 200,
+    "ammo_per_shot": 750,
+    "max_range": 260,
+    "yaw_rate": 15,
+    "pitch_rate": 15,
     "yaw_range": 180,
-    "pitch_range": 360,
+    "pitch_range": 89.9,
     "firing_arc_yaw": 0,
     "firing_arc_pitch": 5,
     "auto_attack": true,
     "firing_standard_deviation": 0.75,
     "physics": {
         "radius": 1,
-        "gravity_scalar": 2,
+        "gravity_scalar": 1,
         "add_to_spatial_db": false
     },
     "target_layers": [
@@ -27,7 +27,5 @@
         "WL_Seafloor",
         "WL_WaterSurface",
         "WL_Underwater"
-    ],
-    "carpet_fire": true,
-    "carpet_wait_for_full_ammo": true
+    ]
 }

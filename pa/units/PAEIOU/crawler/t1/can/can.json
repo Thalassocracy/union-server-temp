@@ -1,8 +1,8 @@
 {
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
-    "display_name": "CanMk2",
+    "display_name": "Can",
     "description": "!LOC:Union Can, counters swarms of dox and booms.",
-    "max_health": 90,
+    "max_health": 110,
     "build_metal_cost": 70,
     "attachable": {
         "offsets": {
@@ -72,7 +72,7 @@
         {
             "spec_id": "/pa/units/PAEIOU/crawler/t1/can/weapon.json",
             "aim_bone": "bone_pitch",
-            "projectiles_per_fire": 1,
+            "projectiles_per_fire": 2,
             "muzzle_bone": [
                 "socket_right_muzzle",
                 "socket_left_muzzle"

@@ -25,7 +25,9 @@
         "UNITTYPE_Offense",
         "UNITTYPE_Land",
         "UNITTYPE_Basic",
-        "UNITTYPE_FabBuild"
+        "UNITTYPE_FabBuild",
+        "UNITTYPE_Custom2",
+        "UNITTYPE_Custom3"
     ],
     "transportable": {
         "size": 1
@@ -198,21 +200,6 @@
             ],
             "intensity": 5.0,
             "bone": "bone_root"
-        },
-        {
-            "offset": [
-                0,
-                -3,
-                2
-            ],
-            "radius": 4.0,
-            "color": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "intensity": 4.0,
-            "bone": "bone_turret"
         }
     ]
 }

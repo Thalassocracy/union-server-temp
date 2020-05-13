@@ -3,7 +3,7 @@
     "display_name": "Foxhound",
     "description": "!LOC:Tank Destroyer Crawler - Advanced long range heavy unit destroyer with high vision radius.",
     "max_health": 400,
-    "build_metal_cost": 1200,
+    "build_metal_cost": 1000,
     "influence_radius": 400,
     "attachable": {
         "offsets": {
@@ -25,7 +25,8 @@
         "UNITTYPE_Offense",
         "UNITTYPE_Land",
         "UNITTYPE_Advanced",
-        "UNITTYPE_FactoryBuild"
+        "UNITTYPE_FactoryBuild",
+        "UNITTYPE_Custom2"
     ],
     "transportable": {
         "size": 1

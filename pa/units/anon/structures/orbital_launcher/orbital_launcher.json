@@ -1,0 +1,291 @@
+{
+    "base_spec": "/pa/units/land/base_structure/base_structure.json",
+    "unit_name": "Orbital Launcher",
+    "display_name": "!LOC:Orbital Launcher",
+    "description": "!LOC:Basic Manufacturing - Builds and launches basic orbital units.",
+    "max_health": 6000,
+    "build_metal_cost": 2700,
+    "atrophy_rate": 45.0,
+    "atrophy_cool_down": 15.0,
+    "buildable_types": "Orbital & FactoryBuild & Basic & Custom2",
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "enable_orbital_shell": true,
+    "wait_to_rolloff_time": 3,
+    "factory": {
+        "deploy_projectile": "/pa/units/anon/structures/orbital_launcher/orbital_launcher_deploy.json",
+        "spawn_points": [
+            "socket_rocket"
+        ]
+    },
+    "unit_types": [
+        "UNITTYPE_Orbital",
+        "UNITTYPE_Factory",
+        "UNITTYPE_Construction",
+        "UNITTYPE_Structure",
+        "UNITTYPE_Land",
+        "UNITTYPE_FabBuild",
+        "UNITTYPE_FabAdvBuild",
+        "UNITTYPE_Basic",
+        "UNITTYPE_Important",
+        "UNITTYPE_Custom2"
+    ],
+    "command_caps": [
+        "ORDER_Move",
+        "ORDER_Patrol",
+        "ORDER_FactoryBuild",
+        "ORDER_Attack",
+        "ORDER_Assist"
+    ],
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 110
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 110
+                }
+            ]
+        }
+    },
+    "model": [
+        {
+            "filename": "/pa/units/anon/structures/orbital_launcher/orbital_launcher.papa",
+            "animations": {
+                "build_start": "/pa/units/anon/structures/orbital_launcher/orbital_launcher_anim_start.papa",
+                "build_loop": "/pa/units/anon/structures/orbital_launcher/orbital_launcher_anim_loop.papa",
+                "build_end": "/pa/units/anon/structures/orbital_launcher/orbital_launcher_anim_end.papa"
+            },
+            "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
+            "skirt_decal": "/pa/effects/specs/skirt_orbital_launcher.json"
+        }
+    ],
+    "tools": [
+        {
+            "spec_id": "/pa/units/anon/structures/orbital_launcher/orbital_launcher_build_arm.json",
+            "aim_bone": "bone_root"
+        }
+    ],
+    "events": {
+        "died": {
+            "effect_spec": "/pa/effects/specs/default_building_explosion_large.pfx",
+            "effect_scale": 1.0
+        }
+    },
+    "audio": {
+        "loops": {
+            "build": {
+                "cue": "/SE/Construction/Factory_contruction_loop_orb_launcher",
+                "flag": "build_target_changed",
+                "should_start_func": "has_build_target",
+                "should_stop_func": "no_build_target"
+            }
+        }
+    },
+    "fx_offsets": [
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_fabber_bottom_left_1",
+            "offset": [
+                0,
+                0,
+                -0.5
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_fabber_bottom_left_2",
+            "offset": [
+                0,
+                0,
+                -0.5
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_fabber_bottom_left_3",
+            "offset": [
+                0,
+                0,
+                -0.5
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_fabber_bottom_right_1",
+            "offset": [
+                0,
+                0,
+                -0.5
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_fabber_bottom_right_2",
+            "offset": [
+                0,
+                0,
+                -0.5
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_fabber_bottom_right_3",
+            "offset": [
+                0,
+                0,
+                -0.5
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_fabber_top_left_1",
+            "offset": [
+                0,
+                0,
+                -0.5
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_fabber_top_left_2",
+            "offset": [
+                0,
+                0,
+                -0.5
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_fabber_top_left_3",
+            "offset": [
+                0,
+                0,
+                -0.5
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_fabber_top_right_1",
+            "offset": [
+                0,
+                0,
+                -0.5
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_fabber_top_right_2",
+            "offset": [
+                0,
+                0,
+                -0.5
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_fabber_top_right_3",
+            "offset": [
+                0,
+                0,
+                -0.5
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "headlights": [],
+    "lamps": [],
+    "selection_icon": {
+        "diameter": 75.0
+    },
+    "TEMP_texelinfo": 63.4807,
+    "mesh_bounds": [
+        50.0454,
+        50.0306,
+        58
+    ],
+    "placement_size": [
+        65,
+        65
+    ],
+    "physics": {
+        "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface"
+    }
+}

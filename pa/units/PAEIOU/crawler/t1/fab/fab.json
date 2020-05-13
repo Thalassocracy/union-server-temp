@@ -19,7 +19,7 @@
             ]
         }
     },
-    "buildable_types": "Land & Structure & Basic | Factory & Basic | Factory & Advanced & Bot & Land | FabBuild",
+    "buildable_types": "Land & Structure & Basic & Custom2 | Factory & Basic & Custom2 | Factory & Advanced & Bot & Land & Custom2 | FabBuild & Custom2",
     "unit_types": [
         "UNITTYPE_Fabber",
         "UNITTYPE_Construction",
@@ -73,19 +73,19 @@
         }
     },
     "model": {
-        "filename": "/pa/units/PAEIOU/crawler/t1/fab/model.papa",
+        "filename": "/pa/units/PAEIOU/crawler/t1/fab/crawler_fabber.papa",
         "animations": {
-            "death01": "/pa/units/PAEIOU/crawler/t1/fab/model.papa",
-            "idle": "/pa/units/PAEIOU/crawler/t1/fab/anim_idle.papa",
-            "walk": "/pa/units/PAEIOU/crawler/t1/fab/anim_run.papa"
+            "death01": "/pa/units/PAEIOU/crawler/t1/fab/crawler_fabber.papa",
+            "idle": "/pa/units/PAEIOU/crawler/t1/fab/crawler_fabber_anim_idle.papa",
+            "walk": "/pa/units/PAEIOU/crawler/t1/fab/crawler_fabber_anim_run.papa"
         },
         "animtree": "/pa/units/PAEIOU/crawler/t1/fab/anim_tree.json",
-        "walk_speed": 4
+        "walk_speed": 5.5
     },
     "tools": [
         {
             "spec_id": "/pa/units/PAEIOU/crawler/t1/fab/tool.json",
-            "aim_bone": "socket_aim"
+            "aim_bone": "bone_pitch"
         }
     ],
     "events": {
@@ -123,7 +123,12 @@
         {
             "type": "build",
             "filename": "/pa/effects/specs/fab_spray.pfx",
-            "bone": "socket_muzzle"
+            "bone": "socket_right_muzzle"
+        },
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "socket_left_muzzle"
         }
     ],
     "selection_icon": {
